@@ -387,3 +387,48 @@ body {
     width: 32px;
     height: 32px;
 }
+
+/* ------------------------------------------------------ */
+
+.card{
+    color: rgba(186, 186, 186, 1);
+    width: 33%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 3px;
+    background-color: rgba(31, 31, 31, 0.5);
+    padding: 40px;
+    gap: 24px;
+}
+
+.cal{
+    color: rgba(90, 156, 255, 1);
+    font-size: 32px;
+}
+
+.blockcard1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+.blockcard2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blockcard3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+
+.block-title1 {
+    margin: 0 0 60px 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 73px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
